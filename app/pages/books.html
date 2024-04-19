@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выдача книг</title>
+    <link rel="stylesheet" href="../styles/books.css">
+</head>
+
+<body>
+    <div class="lineContainer">
+        <img class="camera-feed" src="../images/camera.jpg" alt="Camera Feed">
+        <div class="student-info-container">
+            <div class="student-info">
+                <p id="student-name">John Doe</p>
+                <div>
+                    Класс: 
+                    <select id="grade" class="dropdown"></select>
+                </div>
+                <div>
+                    Комплект учебников: 
+                    <select id="book-set" class="dropdown">
+                    </select>
+                </div>
+                <br>
+                <button class="btn return">Вернуться</button>
+            </div>
+        </div>
+    </div>
+
+    <table class="book-list" id="book-list">
+        <tr>
+            <th>Книга</th>
+            <th>Состояние</th>
+        </tr>
+        <!--
+            .book-entry -> строка таблицы с книгами
+            нужно для стилей и скрипта
+
+            .book-info -> столбец таблицы с ниформацией о книге
+            нужно для стилей
+
+            .book-name -> название книги
+            нужно для скрипта
+
+            .book-state -> статус книги (нужно забрать/нужно выдать/ок)
+            нужно для скрипта
+
+            .state-buttons -> холдер кнопок управления "расположением" книги (у ученика/в библиотеке)
+            нужно для стилей
+
+            .btn -> кнопка
+            нужно для стилей и скрипта
+
+            .at-student -> класс кнопки "у ученика"
+            нужно для скрипта
+
+            .in-library -> класс кнопки "в библиотеке"
+            нужно для скрипта
+        -->
+        <tr class="book-entry">
+            <td>
+                <div class="book-info">
+                    <img class="book-image" src="../images/troll.jpg">
+                    <div>
+                        <div class="book-name">book name</div>
+                        <br>
+                        <div class="book-state">state</div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="state-buttons">
+                    <button class="btn at-student">У ученика</button>
+                    <button class="btn in-library">В библиотеке</button> 
+                </div>
+            </td>
+        </tr>
+        <!-- More book entries will be added here by javascript-->
+    </table>
+
+    <script src="../scripts/books.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Добавление ученика</title>
+     <link rel="stylesheet" href="../styles/add_student.css">
+</head>
+<body>
+    <div class="holder">
+        <div class="header">Добавить ученика</div>
+        <div>
+            Имя:
+            <input id="name" type="text" class="input-field" placeholder="ФИО">
+        </div>
+        <div>
+            Класс:
+            <select id="grade" class="dropdown"></select>
+        </div>
+        <div>
+            Тип класса:
+            <select id="class-type" class="dropdown"></select>
+        </div>
+        <div>
+            <input type="checkbox" class="books-given" id="books-given">
+            <label for="books-given">учебники уже выданы</label>
+        </div> 
+        <div class="confirm-holder">
+            <button id="confirm" class="btn-active">Подтвердить</button>
+            <button id="cancel" class="btn">Отмена</button>
+        </div>
+    </div>
+    <script src="../scripts/add_student.js"></script>
+</body>
+</html>

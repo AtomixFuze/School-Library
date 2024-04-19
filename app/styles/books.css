@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-top: 5%;
+    font-size: medium;
+    overflow-x: hidden;
+    scale: 1;
+}
+
+.lineContainer {
+    overflow: hidden;
+    /* clear the float */
+    border: hidden
+}
+
+.lineContainer div {
+    height: auto;
+}
+
+.camera-feed {
+    width: 150px;
+    float: left;
+}
+
+.student-info-container {
+    display: block;
+    padding-left: 20px;
+    padding-top: 0%;
+    overflow: hidden;
+}
+
+.student-info {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    min-width: 50px;
+}
+
+.book-list {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-y: scroll;
+    height: 55vh;
+}
+
+.book-list th,
+.book-list td {
+    text-align: top;
+    padding: 8px;
+    vertical-align: top; /* Ensure headers are always at the top */
+}
+
+.book-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.book-list tr {
+    min-height: 50px; /* Adjust this value as needed */
+}
+
+.book-info {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    /*line-height: 20px;*/
+}
+
+.book-info div {
+    text-align: left;
+}
+
+.state-buttons {
+    display: flex;
+    gap: 10px;
+    padding-right: 15%;
+    flex-direction: row-reverse;
+    text-wrap: nowrap;
+    font-size: large;
+    font-weight: bold;
+}
+
+.book-image {
+    width: 42px;
+    height: 54px;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.active {
+    background-color: blue !important;
+    color: white !important;
+}
+
+.ok {
+    color: mediumseagreen !important;
+}
+
+.give {
+    color: cornflowerblue !important;
+}
+
+.take {
+    color: tomato !important;
+}

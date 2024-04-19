@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список учеников</title>
+    <link rel="stylesheet" href="../styles/home.css">
+</head>
+<body>
+    <div class="header">
+        <input type="text" class="search-bar" id="search-bar" placeholder="Искать учеников...">
+        <button class="btn settings">Добавить ученика</button>
+    </div>
+
+    <div class="scrollable">
+        <table class="students-list" id="students-list">
+            <tr>
+                <th>Имя</th>
+                <th>Класс</th>
+                <th>Действие</th>
+            </tr>
+            <tr class="student-entry">
+                <td>Foo Bar Alexander</td>
+                <td>10</td>
+                <td>
+                    <button class="btn">Выбрать</button>
+                    <button class="btn delete">Удалить</button>
+                </td>
+            </tr>
+            <!-- More student entries will be added here by javascript-->
+        </table>
+    </div>
+    <script src="../scripts/home.js"></script>
+</body>
+</html>

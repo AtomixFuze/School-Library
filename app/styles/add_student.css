@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-top: 5%;
+    font-size: medium;
+    overflow-x: hidden;
+    scale: 1.1;
+
+}
+
+.dropdown {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    min-width: 50px;
+}
+
+.input-field {
+    flex-grow: 1;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: rgb(193, 193, 193);
+    border-style: solid;
+    border-width: 3px;
+    width: 65%
+}
+
+.btn-active {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.btn {
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.holder {
+    background-color: #f2f2f2;
+    padding: 3%;
+    border-radius: 10px;
+    line-height: 1.65em;
+}
+
+.header {
+    padding-bottom: 3%;
+    text-align: center;
+    
+}
+
+.confirm-holder {
+    padding-top: 3%;
+}
+
+.books-given {
+    accent-color:blue;
+}

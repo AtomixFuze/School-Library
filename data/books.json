@@ -1,0 +1,212 @@
+{
+    "1": {
+        "title": "Учебник по Русскому для 10 - 11 класса",
+        "thumbnail": "russkiy.png",
+        "gradeMin": 10,
+        "gradeMax": 11,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "2": {
+        "title": "Учебник по Алгебре для 10 класса",
+        "thumbnail": "algebra10.png",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "3": {
+        "title": "Учебник по Алгебре для 11 класса",
+        "thumbnail": "algebra11.png",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "4": {
+        "title": "Учебник по Английскому для 10 класса",
+        "thumbnail": "angliyskiy10.png",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "5": {
+        "title": "Учебник по Английскому для 11 класса",
+        "thumbnail": "angliyskiy10.png",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "6": {
+        "title": "Учебник по Биологии для 10 класса",
+        "thumbnail": "bio10.png",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Хим-Био"
+        ]
+    },
+    "7": {
+        "title": "Учебник по Биологии для 11 класса",
+        "thumbnail": "bio10.png",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Хим-Био"
+        ]
+    },
+    "8": {
+        "title": "Учебник по Геометрии для 10 - 11 класса",
+        "thumbnail": "geom.png",
+        "gradeMin": 10,
+        "gradeMax": 11,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "9": {
+        "title": "Учебник по Химии для 10 класса",
+        "thumbnail": "himiya10.png",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Хим-Био"
+        ]
+    },
+    "10": {
+        "title": "Учебник по Химии для 11 класса",
+        "thumbnail": "himiya11.png",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Хим-Био"
+        ]
+    },
+    "11": {
+        "title": "Учебник по Литературе для 11 класса",
+        "thumbnail": "literatura11.png",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "12": {
+        "title": "Учебник по Литературе для 10 класса",
+        "thumbnail": "literatura10.jpg",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "13": {
+        "title": "Учебник по Обществознанию для 10 класса",
+        "thumbnail": "obshestvo10.png",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Соц-Эконом"
+        ]
+    },
+    "14": {
+        "title": "Учебник по Обществознанию для 11 класса",
+        "thumbnail": "obshestvo10.png",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Соц-Эконом"
+        ]
+    },
+    "15": {
+        "title": "Учебник по Праву для 10 класса",
+        "thumbnail": "right10.png",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Соц-Эконом"
+        ]
+    },
+    "16": {
+        "title": "Учебник по Праву для 11 класса",
+        "thumbnail": "right11.png",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Соц-Эконом"
+        ]
+    },
+    "17": {
+        "title": "Учебник по Информатике для 10 класса",
+        "thumbnail": "inf10.jpg",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Инженерный"
+        ]
+    },
+    "18": {
+        "title": "Учебник по Информатике для 11 класса",
+        "thumbnail": "inf11.jpg",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Инженерный"
+        ]
+    },
+    "19": {
+        "title": "Учебник по Физике для 10 класса",
+        "thumbnail": "fizika10.jpg",
+        "gradeMin": 10,
+        "gradeMax": 10,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    },
+    "20": {
+        "title": "Учебник по Физике для 11 класса",
+        "thumbnail": "fizika11.jpg",
+        "gradeMin": 11,
+        "gradeMax": 11,
+        "classTypes": [
+            "Стандартный",
+            "Инженерный",
+            "Хим-Био",
+            "Соц-Эконом"
+        ]
+    }
+}
